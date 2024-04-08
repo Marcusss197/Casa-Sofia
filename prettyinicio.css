@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(255, 255, 255, 0.811);
+    background-image: url(wallpaper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+.final-pag{
+    position: absolute;
+    top:1500px;
+    left: 0px;
+    width: 1480px;
+    height: 200px;
+    background-color: #252525;
+    }
+.textofinal{
+    color:white;
+    font-family: Arial;
+
+}
