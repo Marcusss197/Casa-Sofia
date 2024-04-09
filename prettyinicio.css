@@ -1,22 +1,100 @@
 body {
-    background-color: rgba(255, 255, 255, 0.811);
-    background-image: url(wallpaper.png);
+    background-color: #dddddd
+    /*background-image: url(wallpaper.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;*/
     }
 
 .final-pag{
     position: absolute;
-    top:1500px;
+    top:1800px;
     left: 0px;
     width: 1480px;
     height: 200px;
     background-color: #252525;
     }
+
 .textofinal{
     color:white;
     font-family: Arial;
 
+}
+
+#logo{
+    position: absolute;
+    left:580px;
+    top:40px;
+    border: black solid 6px;
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    font-family: Arial;
+    
+}
+
+
+.menuadocao{
+    position: absolute;
+    top: 450px;
+    left: 30px;
+    border:black solid 6px;
+    width: 400px;
+    height: 300px;
+}
+
+.menucadastro{
+    position: absolute;
+    top: 450px;
+    left: 520px;
+    border:black solid 6px;
+    width: 400px;
+    height: 300px;
+}
+
+.menudoacao{
+    position: absolute;
+    top: 450px;
+    left: 1020px;
+    border:black solid 6px;
+    width: 400px;
+    height: 300px;
+}
+
+.menuvoluntario{
+    position: absolute;
+    top: 850px;
+    left: 30px;
+    border:black solid 6px;
+    width: 400px;
+    height: 300px;
+}
+
+.menusobre{
+    position: absolute;
+    top: 850px;
+    left: 520px;
+    border:black solid 6px;
+    width: 400px;
+    height: 300px;
+}
+
+.menucuidado{
+    position: absolute;
+    top: 850px;
+    left: 1020px;
+    border:black solid 6px;
+    width: 400px;
+    height: 300px;
+}
+
+.textomenu{
+    color:white;
+    font-family: Arial;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 52px;
 }
