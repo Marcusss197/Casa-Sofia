@@ -1,0 +1,35 @@
+body {
+    background-color: #dddddd
+    /*background-image: url(wallpaper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+    }
+
+.final-pag{
+    position: absolute;
+    top:1800px;
+    left: 0px;
+    width: 1480px;
+    height: 200px;
+    background-color: #252525;
+    }
+
+.textofinal{
+    color:white;
+    font-family: Arial;
+
+}
+
+#logo{
+    position: absolute;
+    left:580px;
+    top:40px;
+    border: black solid 6px;
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    font-family: Arial;
+    
+}
