@@ -10,33 +10,75 @@
 
 <body>
     
-    
-
     <div class="container">
-            <div id="logo">
-                <img src="FILES/casasofialogo.png" style="width:170px;height:150px">
-                <h1 style="font-size: 25px;">Casa Sofia</h1>
-                
-            </div>
+        <div class="logosofia">
+            <img id="logo" src="FILES/casasofialogo.png" style="width:170px;height:150px">
+            <a id="textosofia">Casa Sofia</a>
+        </div>
+        
+            
+            
         <nav> 
             <ul>
-                <li>Adoção</li>
-                <li>Cadastro de pets</li>
-                <li>Doações</li>
-                <li>Voluntariados</li>
-                <li>Sobre nós</li>
-                <li><a href=cuidadospets.html>Cuidados ao pet</a></li>
+                <li><a class="direct"href=index.html>Inicio</a></li>
+                <li><a class="direct"href=adocao.html#>Adoção</a></li>
+                <li><a class="direct"href=cadastropet.html>Cadastro de Pets</a></li>
+                <li><a class="direct"href=doacao.html>Doações</a></li>
+                <li><a class="direct"href=voluntario.html>Voluntariados</a></li>
+                <li><a class="direct"href=sobrenos.html>Sobre nós</a></li>
+                <li><a class="direct"href=cuidadospets.html>Cuidados ao pet</a></li>
             </ul>
         </nav>
     </div>
-
-
-    <div class="final-pag">
-      <p class="textofinal">eh pra a gente por coisas aqui, mas to com priguiça</p>
-
+    
+    <div class="filtro-pets">
+        <label htmlFor="pets"></label>
+            <select id="filter" value="all-pets">
+                <option value="all-pets">Todos os Pets</option>
+                <option value="dog">Cachorro</option>
+                <option value="cat">Gato</option>
+            </select>
+        <label htmlFor="sexo"></label>
+            <select id="filter" value="all-sex">
+                <option value="all-sex">Todos os Sexos</option>
+                <option value="boy">Macho</option>
+                <option value="girl">Fêmea</option>
+            </select>
+        <label htmlFor="size"></label>
+            <select id="filter" value="all-size">
+                <option value="all-size">Todos os portes</option>
+                <option value="size">Porte Pequeno</option>
+                <option value="size">Porte Medio</option>
+                <option value="size">Porte Grande</option>
+                
+            </select>
+        <label htmlFor="breed"></label>
+            <select id="filter" value="all-breeds">
+                <option value="all-breeds">Todas as Raças</option>
+                <option value="breeds">Sem Raça</option>
+                <option value="breeds">Pudim</option>
+                <option value="breeds">Sushi</option>
+                <option value="breeds">Batata</option>
+                <option value="breeds">Caramelo dono da rua</option>
+            </select>
+        <label htmlFor="age"></label>
+            <select id="filter" value="all-age">
+                <option value="all-age">Idade</option>
+                <option value="age">Filhote</option>
+                <option value="age">Adulto</option>
+                <option value="age">Idoso</option>
+            </select>
+         
     </div>
+    <button type="button" class="buscar">
+        Buscar
+      </button>
+
+    <footer>
+        <p class="textofinal">eh pra a gente por coisas aqui, mas to com priguiça</p>
+      </footer>
 
 </body>
-
+<script src="JS/adocaoscript.js"></script>
 
 </html>

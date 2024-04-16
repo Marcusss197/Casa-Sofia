@@ -1,4 +1,3 @@
-
 body {
     background-color: #dddddd;
     background-image: url(../FILES/fundotemporario.jpg);
@@ -106,18 +105,3 @@ body {
       top: 50%;
       opacity: 1;
     }
-.cuidado{
-    border: 10px solid #ff0000;
-    position: flex;
-    top:100px;
-    left:20px;
-}
-
-.textovideo{
-    color:rgb(17, 13, 3);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    position: flex;
-    top:20px;
-    left:20px;
-}

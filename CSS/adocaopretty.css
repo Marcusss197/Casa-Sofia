@@ -1,31 +1,32 @@
 body {
-    background-color: #dddddd
-    /*background-image: url(wallpaper.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;*/
+  background-color: #dddddd;
+  background-image: url(../FILES/fundotemporario.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
     }
 
-.final-pag{
-    position: absolute;
-    top:1800px;
-    left: 0px;
-    width: 1480px;
-    height: 200px;
-    background-color: #252525;
-    }
-
-.textofinal{
-    color:white;
-    font-family: Arial;
-
-}
+    footer {
+      background-color: rgb(50, 50, 50);
+      color: white;
+      padding: 50px;
+      text-align: center;
+      margin-top: 900px;
+      margin-left: -10px;
+  }
+  
+  .textofinal{
+      color:white;
+      font-family: Arial;
+      font-size: 35px;
+  
+  }
 
 #logo{
-    position: flex;
-    left:20px;
-    top:20px;
+    display: flex;
+    margin-top: -10px;
+    margin-left: 30px;
     border: black solid 6px;
     width: 185px;
     height: 165px;
@@ -34,6 +35,20 @@ body {
     
 }
 
+#textosofia{
+  display: flex;
+  font-size: 32px;
+  margin-left: 35px;
+  color: black;
+  font-weight: bold;
+    
+}
+
+.direct{
+  color:black;
+  text-decoration: none;
+
+}
 
 * {
     margin: 0;
@@ -48,6 +63,7 @@ body {
     flex-direction: row;
     gap:100px;
     align-items: flex-start;
+    margin-top: 30px;
   }
   nav {
     background: #fff;
@@ -58,7 +74,7 @@ body {
   nav ul li {
     list-style: none;
     display: inline-block;
-    padding: 15px 35px;
+    padding: 15px 25px;
     margin: 10px;
     font-size: 18px;
     font-weight: 500;
@@ -90,3 +106,36 @@ body {
     opacity: 1;
   }
   
+
+.filtro-pets{
+  display: flex;
+  flex-direction:row;
+  margin-top: -500px;
+  margin-left: 20px;
+  gap:20px;
+}
+#filter{
+  display: flex;
+  width: 250px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+}
+
+.buscar {
+  position: flex;
+  margin-top: 10px;
+  margin-left: 1310px;
+  text-align: center;
+  width: 140px;
+  height: 50px;
+  border:none;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #0091ff; 
+  cursor: pointer;
+}
+
+.buscar:hover{
+  background-color: #60b8fb; 
+}

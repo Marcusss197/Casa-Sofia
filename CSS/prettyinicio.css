@@ -1,92 +1,140 @@
 body {
-    background-color: #dddddd
-    /*background-image: url(wallpaper.png);
+    background-color: #dddddd;
+    background-image: url(../FILES/fundotemporario.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;*/
+    
+    background-size: cover;
     }
 
-.final-pag{
-    position: absolute;
-    top:1800px;
-    left: 0px;
-    width: 1480px;
-    height: 200px;
-    background-color: #252525;
-    }
+footer {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin-top: 900px;
+    margin-left: -10px;
+}
 
 .textofinal{
     color:white;
     font-family: Arial;
+    font-size: 35px;
 
 }
 
+.logosofia{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 570px;
+}
 #logo{
-    position: absolute;
-    left:580px;
-    top:40px;
     border: black solid 6px;
     width: 300px;
     height: 250px;
-    align-items: center;
+}
+
+#textosofia{
+    display: flex;
+    font-size: 32px;
     font-family: Arial;
-    
-}
+    margin-top: 270px;
+    margin-left: -220px;
+  }
 
-
-.menuadocao{
+.direct{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+  
+  }
+.menu-adocao{
     position: absolute;
     top: 450px;
     left: 30px;
     border:black solid 6px;
     width: 400px;
     height: 300px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
 }
 
-.menucadastro{
+.menu-adocao:hover{
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+    transform: translateY(-10px);
+}
+
+.menu-cadastro{
     position: absolute;
     top: 450px;
     left: 520px;
     border:black solid 6px;
     width: 400px;
     height: 300px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
 }
 
-.menudoacao{
+.menu-cadastro:hover{
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+    transform: translateY(-10px);
+}
+
+.menu-doacao{
     position: absolute;
     top: 450px;
     left: 1020px;
     border:black solid 6px;
     width: 400px;
     height: 300px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
 }
 
-.menuvoluntario{
+.menu-doacao:hover{
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+    transform: translateY(-10px);
+}
+
+.menu-voluntario{
     position: absolute;
     top: 850px;
     left: 30px;
     border:black solid 6px;
     width: 400px;
     height: 300px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
 }
 
-.menusobre{
+.menu-voluntario:hover{
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+    transform: translateY(-10px);
+}
+
+.menu-sobre{
     position: absolute;
     top: 850px;
     left: 520px;
     border:black solid 6px;
     width: 400px;
     height: 300px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
 }
 
-.menucuidado{
+.menu-sobre:hover{
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+    transform: translateY(-10px);
+}
+
+.menu-cuidado{
     position: absolute;
     top: 850px;
     left: 1020px;
     border:black solid 6px;
     width: 400px;
     height: 300px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+}
+
+.menu-cuidado:hover{
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
+    transform: translateY(-10px);
 }
 
 .textomenu{
