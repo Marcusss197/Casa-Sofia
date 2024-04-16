@@ -23,13 +23,70 @@ body {
 }
 
 #logo{
-    position: absolute;
-    left:580px;
-    top:40px;
+    position: flex;
+    left:20px;
+    top:20px;
     border: black solid 6px;
-    width: 300px;
-    height: 250px;
+    width: 185px;
+    height: 165px;
     align-items: center;
     font-family: Arial;
     
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    align-items: flex-start;
+  }
+  nav {
+    background: #fff;
+    border-radius: 50px;
+    
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+  }
+  nav ul li::after {
+    content: "";
+    background: #707070;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+  }
+  nav ul li:hover {
+    color: #fff;
+  }
+  nav ul li:hover::after {
+    top: 50%;
+    opacity: 1;
+  }
+  
