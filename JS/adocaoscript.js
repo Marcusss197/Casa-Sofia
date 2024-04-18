@@ -78,8 +78,7 @@ console.log(pessoa.endereco) //mostra endereco, bairro, numero, etc
 
 */
 
-let pessoa = {
-    nome: "Gustavo",
+/*    nome: "Gustavo",
     idade: 29,
     endereco:{
         rua:"Belarmino de mendonça",
@@ -102,5 +101,5 @@ let pessoa = {
     }
 }
 
-console.log(pessoa.formacaoAcademica.curso.disciplinas)
+console.log(pessoa.formacaoAcademica.curso.disciplinas)*/
 
