@@ -3,7 +3,7 @@ body {
     background-image: url(../FILES/fundotemporario.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    
+    /* height: 100vh; */
     background-size: cover;
       }
   
@@ -62,7 +62,7 @@ body {
     }
     .container {
       width: 100%;
-      height: 100vh;
+      /* height: 100vh; */
       display: flex;
       flex-direction: row;
       gap:130px;
@@ -110,3 +110,21 @@ body {
       opacity: 1;
     }
     /* nav-bar */
+
+    .banho {
+      width: 100%;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../FILES/BANHO.webp);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
