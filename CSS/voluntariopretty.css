@@ -128,3 +128,9 @@ body {
       justify-content: center;
       align-items: center;
     }
+
+    .whatsapp {
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 42px;
+    }
