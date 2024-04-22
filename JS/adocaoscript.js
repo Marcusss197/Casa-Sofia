@@ -77,8 +77,8 @@ console.log(pessoa.endereco.rua) //imprime somente o nome da rua
 console.log(pessoa.endereco) //mostra endereco, bairro, numero, etc
 
 */
-
-/*    nome: "Gustavo",
+let pessoa = {
+    nome: "Gustavo",
     idade: 29,
     endereco:{
         rua:"Belarmino de mendonça",
@@ -96,10 +96,35 @@ console.log(pessoa.endereco) //mostra endereco, bairro, numero, etc
                 "Algoritmos",
                 "Compiladores",
                 "LFA"
-            ]
+            ],
+
+
         }
     }
 }
 
-console.log(pessoa.formacaoAcademica.curso.disciplinas)*/
+pessoa.formacaoAcademica.curso.disciplinas.forEach((disciplina)=>{
+    console.log(disciplina);
+});
+
+/*let array1=[1,5,6,2,4,2];
+
+function imprimenumero(numero){ //necessario ter para q o forEach funcione
+    console.log(numero);
+}
+
+array1.forEach(imprimenumero) //forEach, tem q ter a letra E maiusculo para funcionar, se nao, ele da erro
+//forEach é uasdo pra substituir um for()
+
+let listNomes = ["Sushi","Pure de batata","Sonho de creme","Hamburguer","Suco de laranja"]
+
+function comidaAtualIndice(comida_atual, indice) {
+    console.log(`a comida ${comida_atual} tem atualmente ${indice}`);
+}
+
+listNomes.forEach(comidaAtualIndice)*/
+
+
+
+
 
