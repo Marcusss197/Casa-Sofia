@@ -110,53 +110,43 @@ body {
       opacity: 1;
     }
     /* nav-bar */
-  
-  .filtro-pets{
-    display: flex;
-    flex-direction:row;
-    margin-top: -500px;
-    margin-left: 20px;
-    gap:20px;
-  }
-  #filter{
-    display: flex;
-    width: 250px;
-    height: 40px;
-    border: none;
-    font-size: 20px;
-  }
-  
-  .buscar {
-    position: flex;
-    margin-top: 10px;
-    margin-left: 1310px;
-    text-align: center;
-    width: 140px;
-    height: 50px;
-    border:none;
-    font-size: 25px;
-    color: #ffffff;
-    background-color: #0091ff; 
-    cursor: pointer;
-  }
-  
-  .allcards-adocao{
-    display: flex;
-    flex-direction:row;
-  
-  }
-  
-  .card-adocao{
-    display: flex;
-    margin-left: 65px;
-    margin-top: 45px;
-    transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
-  }
-  
-  .card-adocao:hover{
-      box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
-      transform: translateY(-15px);
-  }
-  .buscar:hover{
-    background-color: #60b8fb; 
-  }
+
+    .card-all{
+        display: flex;
+        margin-top: -500px;
+        margin-left: 150px;
+    }
+    .icon-pet{
+        display: flex;
+        width: 650px;
+        border: 6px solid black;
+    }
+
+    .list-group{
+        display: flex;
+        margin-left: 80px;
+        width: 350px;
+        text-align: center;
+    }
+
+    .tags-all{
+        display: flex;
+        margin-top: 10px;
+        flex-direction:row;
+        gap:10px;
+    }
+
+    .tags {
+        width: 100px;
+        height: 30px;
+        border: 3px solid #2e93ff;
+        font-size: 12px;
+        font-weight: bold;
+        font-style: normal;
+        color: #33a0ff;
+        background-color: #ffffff; 
+        cursor: none;
+      }
+    .adocao-botao{
+        display: flex;
+    }
