@@ -1,4 +1,3 @@
-
 body {
     background-color: #dddddd;
     background-image: url(../FILES/fundotemporario.jpg);
@@ -24,7 +23,7 @@ body {
     
     }
   
-    #logo{
+  #logo{
       display: flex;
       margin-top: -10px;
       margin-left: -30px;
@@ -111,21 +110,43 @@ body {
       opacity: 1;
     }
     /* nav-bar */
-.cuidado{
-    border: 10px solid #0e0d0d;
-    
-}
 
-.textovideo{
-    color:rgb(17, 13, 3);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    text-shadow: 5px 5px 10px #000000;
-    
-}
+    .card-all{
+        display: flex;
+        margin-top: -500px;
+        margin-left: 150px;
+    }
+    .icon-pet{
+        display: flex;
+        width: 650px;
+        border: 6px solid black;
+    }
 
-.qlqrnome{
-  position: flex;
-  margin-top: -500px;
-  margin-left: 35px;
-}
+    .list-group{
+        display: flex;
+        margin-left: 80px;
+        width: 350px;
+        text-align: center;
+    }
+
+    .tags-all{
+        display: flex;
+        margin-top: 10px;
+        flex-direction:row;
+        gap:10px;
+    }
+
+    .tags {
+        width: 100px;
+        height: 30px;
+        border: 3px solid #2e93ff;
+        font-size: 12px;
+        font-weight: bold;
+        font-style: normal;
+        color: #33a0ff;
+        background-color: #ffffff; 
+        cursor: none;
+      }
+    .adocao-botao{
+        display: flex;
+    }
