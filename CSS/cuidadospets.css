@@ -111,21 +111,38 @@ body {
       opacity: 1;
     }
     /* nav-bar */
-.cuidado{
-    border: 10px solid #0e0d0d;
+    .abaduvida{
+      background-color: #21134b;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 18px;
+      width: 1390px;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 30px;
+      transition: 0.4s;
+      border-bottom: 2px solid white;
+    }
     
-}
-
-.textovideo{
-    color:rgb(17, 13, 3);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    text-shadow: 5px 5px 10px #000000;
+    .painel{
+      padding: 0 18px;
+      width: 1300px;
+      background-color: #ffffffb1;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      font-size: 20px;
+    }
     
-}
-
-.qlqrnome{
-  position: flex;
-  margin-top: -500px;
-  margin-left: 35px;
-}
+    .duvidasgeral{
+      position:absolute;
+      top: 260px;
+      left: 40px;
+      font-family:Arial;
+    }
+    
+    .active, .abaduvida:hover {
+      background-color: #3c19a3;
+    }
+    
