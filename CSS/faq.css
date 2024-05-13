@@ -146,3 +146,7 @@ body {
       background-color: #3c19a3;
     }
     
+    #map {
+      height: 100%;
+    }
+    
