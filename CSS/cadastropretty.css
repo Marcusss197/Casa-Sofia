@@ -1,112 +1,199 @@
 body {
-    background-color: #dddddd;
-    background-image: url(../FILES/fundotemporario.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    background-size: cover;
-      }
-  
-      footer {
-        background-color: rgb(50, 50, 50);
-        color: white;
-        padding: 50px;
-        text-align: center;
-        margin-top: 900px;
-        margin-left: -10px;
-    }
-    
-    .textofinal{
-        color:white;
-        font-family: Arial;
-        font-size: 35px;
-    
-    }
-  
-    #logo{
-      display: flex;
-      margin-top: -10px;
-      margin-left: -30px;
-      border: black solid 6px;
-      width: 185px;
-      height: 165px;
-      align-items: center;
-      font-family: Arial;
-      
-  }
-  
-  #textosofia{
-    display: flex;
-    font-size: 32px;
-    margin-left: -26px;
-    color: black;
-    font-weight: bold;
-      
-  }
-  
-  .direct{
-    display: flex;
-    color:black;
-    text-decoration: none;
-    margin-top: 15px;
-    margin-left: -10px;
-  
-  }
-  
-  /* nav bar */
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
-    }
-    .container {
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      flex-direction: row;
-      gap:130px;
-      align-items: flex-start;
-      margin-top: 30px;
-    }
-    nav {
-      background: #fff;
-      border-radius: 50px;
-      
-      box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
-    }
-    nav ul li {
-      list-style: none;
-      display: inline-block;
-      padding: 5px 13px;
-      margin: 10px;
-      font-size: 18px;
-      font-weight: 500;
-      color: #777;
-      cursor: pointer;
-      position: relative;
-      z-index: 2;
-      transition: color 0.5s;
-    }
-    nav ul li::after {
-      content: "";
-      background: #707070;
-      width: 100%;
-      height: 100%;
-      border-radius: 30px;
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translate(-55%, -35%);
-      z-index: -1;
-      opacity: 0;
-      transition: top 0.5s, opacity 0.5s;
-    }
-    nav ul li:hover {
-      color: #fff;
-    }
-    nav ul li:hover::after {
-      top: 50%;
-      opacity: 1;
-    }
-    /* nav-bar */
+  background-color: #dddddd;
+  background-image: url(../FILES/fundotemporario.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+footer {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  margin-top: 900px;
+  margin-left: -10px;
+}
+
+.textofinal {
+  color: white;
+  font-family: Arial;
+  font-size: 35px;
+
+}
+
+#logo {
+  display: flex;
+  margin-top: -10px;
+  margin-left: -30px;
+  border: black solid 6px;
+  width: 185px;
+  height: 165px;
+  align-items: center;
+  font-family: Arial;
+
+}
+
+#textosofia {
+  display: flex;
+  font-size: 32px;
+  margin-left: -26px;
+  color: black;
+  font-weight: bold;
+
+}
+
+.direct {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: -10px;
+
+}
+
+/* nav bar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+nav {
+  background: #fff;
+  border-radius: 50px;
+
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 13px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #777;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition: color 0.5s;
+}
+
+nav ul li::after {
+  content: "";
+  background: #707070;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-55%, -35%);
+  z-index: -1;
+  opacity: 0;
+  transition: top 0.5s, opacity 0.5s;
+}
+
+nav ul li:hover {
+  color: #fff;
+}
+
+nav ul li:hover::after {
+  top: 50%;
+  opacity: 1;
+}
+
+/* nav-bar */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
+
+#froggy {
+  display: flex;
+  justify-content: center;
+}
+
+body form {
+  background: #999;
+  width: fit-content;
+  padding: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+form {
+  position: relative;
+  width: 250px;
+  margin: 0 auto;
+  background: rgba(130, 130, 130, .3);
+  padding: 20px 22px;
+  border: 1px solid;
+  border-top-color: rgba(255, 255, 255, .4);
+  border-left-color: rgba(255, 255, 255, .4);
+  border-bottom-color: rgba(60, 60, 60, .4);
+  border-right-color: rgba(60, 60, 60, .4);
+}
+
+form input,
+form button {
+  width: 212px;
+  border: 1px solid;
+  border-bottom-color: rgba(255, 255, 255, .5);
+  border-right-color: rgba(60, 60, 60, .35);
+  border-top-color: rgba(60, 60, 60, .35);
+  border-left-color: rgba(80, 80, 80, .45);
+  background-color: rgba(0, 0, 0, .2);
+  background-repeat: no-repeat;
+  padding: 8px 24px 8px 10px;
+  font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+  letter-spacing: .075em;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+  margin-bottom: 19px;
+}
+
+form input:focus {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+
+::-webkit-input-placeholder {
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+::-moz-placeholder {
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+form button[type=submit] {
+  width: 248px;
+  margin-bottom: 0;
+  color: #3f898a;
+  letter-spacing: .05em;
+  text-shadow: 0 1px 0 #133d3e;
+  text-transform: uppercase;
+  background: #225556;
+  border-top-color: #9fb5b5;
+  border-left-color: #608586;
+  border-bottom-color: #1b4849;
+  border-right-color: #1e4d4e;
+  cursor: pointer;
+}
