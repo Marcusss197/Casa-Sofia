@@ -138,7 +138,29 @@ body {
   .textomenu{
     position: absolute;
     top:50%;
-    left:50%;
+    left:45%;
+    color: white;
+    font-size: 30px;
+  }
+  .textomenu1{
+    position: absolute;
+    top:50%;
+    left:45%;
+    color: white;
+    font-size: 30px;
+  }
+
+  .textomenu2{
+    position: absolute;
+    top:50%;
+    left:45%;
+    color: white;
+    font-size: 30px;
+  }
+  .textomenu3{
+    position: absolute;
+    top:50%;
+    left:45%;
     color: white;
     font-size: 30px;
   }
