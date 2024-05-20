@@ -3,7 +3,7 @@ body {
     background-image: url(../FILES/fundotemporario.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    
+    margin-left: 60px;
     background-size: cover;
       }
   
@@ -58,7 +58,7 @@ body {
     }
     .container {
       width: 100%;
-      height: 100vh;
+      height: auto;
       display: flex;
       flex-direction: row;
       gap:100px;
