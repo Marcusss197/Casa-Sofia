@@ -29,16 +29,43 @@
         </nav>
     </div>
     <div class="customcontato">
-        <p>Nome</p>
-        <input class="imputpretty" type="text" name="nome" placeholder="Digite seu nome" size="30" required>
-        <p>Email</p>
-        <input class="imputpretty" type="email" name="Raça" placeholder="Digite a raça do animal" size="30" required>
-        <p>Assunto</p>
-        <input class="imputpretty" type="text" name="Tamanho" placeholder="Digite o tamanho do animal" size="40" required>
-        <p>Mensagem</p>
-        <input class="imputmsgpretty" type="text" name="Detalhes" placeholder="Digite detalhes sobre o animal" size="40" required>
+        <h1>Cadastro de Pet</h1>
+        <form id="petForm">
+            <label for="doador">Nome do doador:</label>
+            <input type="text" id="doador" name="doador" required>
+
+            <label for="telefone">Telefone para contato:</label>
+            <input type="text" id="telefone" name="telefone" required>
+
+            <label for="petName">Nome do Pet:</label>
+            <input type="text" id="petName" name="petName" required>
+
+            <label for="raca">Raça do pet:</label>
+            <input type="text" id="raca" name="raca" required>
+
+            <label for="sexo">Sexo do pet:</label>
+            <input type="text" id="sexo" name="sexo" required>
+
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" required></textarea>
+
+            <label for="foto">Foto do pet:</label>
+            <input type="file" id="foto" name="foto" accept="image/*" required>
+
+            <button type="submit">Concluir cadastro de adoção</button>
+        </form>
     </div>
 
+    <div id="result" class="result hidden">
+        <h2>Informações do Cadastro</h2>
+        <p><strong>Nome do doador:</strong> <span id="resDoador"></span></p>
+        <p><strong>Telefone para contato:</strong> <span id="resTelefone"></span></p>
+        <p><strong>Nome do Pet:</strong> <span id="resPetName"></span></p>
+        <p><strong>Raça do Pet:</strong> <span id="resRaca"></span></p>
+        <p><strong>Sexo do Pet:</strong> <span id="resSexo"></span></p>
+        <p><strong>Descrição:</strong> <span id="resDescricao"></span></p>
+        <p><strong>Foto do Pet:</strong> <br> <img id="resFoto" src="" alt="Foto do Pet" class="pet-photo"></p>
+    </div>
 
     <footer>
         <p class="textofinal">colocar aqui informações</p>
@@ -47,5 +74,6 @@
 </body>
 <script src="JS/"></script>
 <script src="JS/adocaoscript.js"></script>
+<script src="JS/cadastropet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
