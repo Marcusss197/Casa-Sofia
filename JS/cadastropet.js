@@ -15,6 +15,19 @@ document.getElementById('petForm').addEventListener('submit', function(e) {
     document.getElementById('resSexo').textContent = sexo;
     document.getElementById('resTelefone').textContent = telefone;
     document.getElementById('resDescricao').textContent = descricao;
+    
+    localStorage.getItem()
+    const formData = {
+      doador: doador,
+      petName: petName,
+      raca: raca,
+      sexo: sexo,
+      telefone: telefone,
+      descricao: descricao
+    };
+
+    localStorage.setItem('formData', JSON.stringify(formData));
+
 
     const reader = new FileReader();
     reader.onload = function(e) {
