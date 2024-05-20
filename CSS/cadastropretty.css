@@ -3,6 +3,11 @@ body {
   background-color: #dddddd;
   margin: 0;
   padding: 20px;
+  background-image: url(../FILES/fundotemporario.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
 }
 
 footer {
