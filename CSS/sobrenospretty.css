@@ -1,113 +1,103 @@
+/* Estilos Globais */
 body {
-    background-color: #dddddd;
-    background-image: url(../FILES/fundotemporario.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    background-size: cover;
-      }
-  
-      footer {
-        background-color: rgb(50, 50, 50);
-        color: white;
-        padding: 50px;
-        text-align: center;
-        margin-top: 900px;
-        margin-left: -10px;
-    }
-    
-    .textofinal{
-        color:white;
-        font-family: Arial;
-        font-size: 35px;
-    
-    }
-  
-    #logo{
-      display: flex;
-      margin-top: -10px;
-      margin-left: -30px;
-      border: black solid 6px;
-      width: 185px;
-      height: 165px;
-      align-items: center;
-      font-family: Arial;
-      
-  }
-  
-  #textosofia{
-    display: flex;
-    font-size: 32px;
-    margin-left: -26px;
-    color: black;
-    font-weight: bold;
-      
-  }
-  
-  .direct{
-    display: flex;
-    color:black;
-    text-decoration: none;
-    margin-top: 15px;
-    margin-left: -10px;
-  
-  }
-  
-  /* nav bar */
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Poppins", sans-serif;
-    }
-    .container {
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      flex-direction: row;
-      gap:130px;
-      align-items: flex-start;
-      margin-top: 30px;
-    }
-    nav {
-      background: #fff;
-      border-radius: 50px;
-      
-      box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
-    }
-    nav ul li {
-      list-style: none;
-      display: inline-block;
-      padding: 5px 13px;
-      margin: 10px;
-      font-size: 18px;
-      font-weight: 500;
-      color: #777;
-      cursor: pointer;
-      position: relative;
-      z-index: 2;
-      transition: color 0.5s;
-    }
-    nav ul li::after {
-      content: "";
-      background: #707070;
-      width: 100%;
-      height: 100%;
-      border-radius: 30px;
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translate(-55%, -35%);
-      z-index: -1;
-      opacity: 0;
-      transition: top 0.5s, opacity 0.5s;
-    }
-    nav ul li:hover {
-      color: #fff;
-    }
-    nav ul li:hover::after {
-      top: 50%;
-      opacity: 1;
-    }
-    /* nav-bar */
-    
+  background-color: #dddddd;
+  background-image: url(../FILES/fundotemporario.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do Contêiner */
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+/* Estilos do Logo e Cabeçalho */
+.logosofia {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 170px;
+  height: 150px;
+  border: black solid 6px;
+}
+
+#textosofia {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+}
+
+/* Estilos da Navegação */
+nav {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #777;
+  padding: 10px 20px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Estilos das Seções */
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.developer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.developer p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Estilos do Rodapé */
+footer {
+  background-color: rgb(50, 50, 50);
+  color: white;
+   }
