@@ -9,7 +9,6 @@ document.getElementById('petForm').addEventListener('submit', function(e) {
     const descricao = document.getElementById('descricao').value;
     const foto = document.getElementById('foto').files[0];
 
-    // Preenchendo os campos de resultado
     document.getElementById('resDoador').textContent = doador;
     document.getElementById('resPetName').textContent = petName;
     document.getElementById('resRaca').textContent = raca;
@@ -17,13 +16,11 @@ document.getElementById('petForm').addEventListener('submit', function(e) {
     document.getElementById('resTelefone').textContent = telefone;
     document.getElementById('resDescricao').textContent = descricao;
 
-    // Exibindo a foto
     const reader = new FileReader();
     reader.onload = function(e) {
         document.getElementById('resFoto').src = e.target.result;
     }
     reader.readAsDataURL(foto);
-
-    // Exibindo a seção de resultado
+    
     document.getElementById('result').classList.remove('hidden');
 });
