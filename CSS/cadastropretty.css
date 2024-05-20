@@ -119,10 +119,19 @@ nav ul li:hover::after {
 /* nav-bar */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 
+.imputpretty{
+  height: 30px;
+  border: none;
+  font-size: 20px;
+}
 
-#froggy {
-  display: flex;
-  justify-content: center;
+.customcontato{
+  position: absolute;
+  top:200px;
+  left:400px;
+  color:black
+  font-family:arial;
+  font-size:25px;
 }
 
 body form {
