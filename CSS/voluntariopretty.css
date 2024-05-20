@@ -136,7 +136,7 @@ body {
   }
 
   .textomenu{
-    position: absolute;
+    position: inherit;;
     top:50%;
     left:45%;
     color: white;
@@ -151,16 +151,16 @@ body {
   }
 
   .textomenu2{
-    position: absolute;
+    position: inherit;
     top:50%;
     left:45%;
     color: white;
     font-size: 30px;
   }
   .textomenu3{
-    position: absolute;
+    position: inherit;
     top:50%;
     left:45%;
-    color: white;
+    color: black;
     font-size: 30px;
   }
