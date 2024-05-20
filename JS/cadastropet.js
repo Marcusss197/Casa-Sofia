@@ -16,7 +16,6 @@ document.getElementById('petForm').addEventListener('submit', function(e) {
     document.getElementById('resTelefone').textContent = telefone;
     document.getElementById('resDescricao').textContent = descricao;
     
-    localStorage.getItem()
     const formData = {
       doador: doador,
       petName: petName,
