@@ -1,4 +1,4 @@
-/* Estilos Globais */
+
 body {
   background-color: #dddddd;
   background-image: url(../FILES/fundotemporario.jpg);
@@ -11,7 +11,7 @@ body {
   padding: 0;
 }
 
-/* Estilos do Contêiner */
+
 .container {
   margin: 0 auto;
   padding: 5px;
@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 
-/* Estilos do Logo e Cabeçalho */
+
 .logosofia {
   display: flex;
   flex-direction: column; 
@@ -39,7 +39,7 @@ body {
   color: black;
 }
 
-/* Estilos da Navegação */
+
 nav {
   background: #fff;
   border-radius: 10px;
@@ -72,7 +72,7 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/* Estilos das Seções */
+
 section {
   margin-bottom: 40px;
 }
@@ -98,7 +98,7 @@ section p {
   line-height: 1.5;
 }
 
-/* Estilos do Rodapé */
+
 footer {
   background-color: rgb(50, 50, 50);
   color: white;
