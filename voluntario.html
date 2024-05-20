@@ -1,81 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 
 <head>
-<title> - Casa Sofia</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Sofia - Voluntários</title>
     <link rel="icon" type="image/x-icon" href="siteicon.png">
     <link rel="stylesheet" href="CSS/voluntariopretty.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<!-- Jhevison - Medio -->
+
 <body>
-    
-    <div class="container">
-        <div class="logosofia">
-            <img id="logo" src="FILES/casasofialogo.png" style="width:170px;height:150px">
-            <a id="textosofia">Casa Sofia</a>
+    <header>
+        <div class="container">
+            <div class="logosofia">
+                <img id="logo" src="FILES/casasofialogo.png" alt="Logo Casa Sofia" style="width:170px;height:150px">
+                <h1 id="textosofia">Casa Sofia</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="direct" href="index.html">Início</a></li>
+                    <li><a class="direct" href="adocao.html">Adoção</a></li>
+                    <li><a class="direct" href="cadastropet.html">Cadastro de Pets</a></li>
+                    <li><a class="direct" href="doacao.html">Doações</a></li>
+                    <li><a class="direct" href="voluntario.html">Voluntariados</a></li>
+                    <li><a class="direct" href="faq.html">FAQ</a></li>
+                    <li><a class="direct" href="sobrenos.html">Sobre nós</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav> 
-            <ul>
-                <li><a class="direct"href=index.html>Inicio</a></li>
-                <li><a class="direct"href=adocao.html#>Adoção</a></li>
-                <li><a class="direct"href=cadastropet.html>Cadastro de Pets</a></li>
-                <li><a class="direct"href=doacao.html>Doações</a></li>
-                <li><a class="direct"href=voluntario.html>Voluntariados</a></li>
-                <li><a class="direct"href=faq.html>FAQ</a></li>
-              <li><a class="direct"href=sobrenos.html>Sobre nós</a></li>
-            </ul>
-        </nav>
-    </div>
+    </header>
 
-    <div class="items">
-        <div class="banho">
-            <h1 class="textofinal">SERVIÇOS VOLUNTARIOS</h1>
-        </div>
+    <main class="container">
+        <section class="voluntariado">
+            <h1>SERVIÇOS VOLUNTÁRIOS</h1>
+            <h2>VAGAS:</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="FILES/banho-em-cachorro-saiba-qual-e-a-frequencia-ideal.jpg" alt="Dar banho em cachorro" class="grid-image">
+                    <h3 class="grid-text"><a href="#">Dar banho</a></h3>
+                </div>
+                <div class="grid-item">
+                    <img src="FILES/images (3).jpg" alt="Passear com os animais" class="grid-image">
+                    <h3 class="grid-text"><a href="#">Passear com os animais</a></h3>
+                </div>
+                <div class="grid-item">
+                    <img src="FILES/images.jpg" alt="Ajudar na alimentação" class="grid-image">
+                    <h3 class="grid-text"><a href="#">Ajudar na alimentação</a></h3>
+                </div>
+                <div class="grid-item">
+                    <img src="FILES/PEQUENOS 08 (4)_1-2.jpg" alt="Momento recreativo" class="grid-image">
+                    <h3 class="grid-text"><a href="#">Momento recreativo</a></h3>
+                </div>
+            </div>
+        </section>
 
-        <h2>VAGAS:</h2>
-
-        <div class="menu-cadastro">
-            <img src="FILES/banho-em-cachorro-saiba-qual-e-a-frequencia-ideal.jpg" usemap="#cadastroimg" style="width:400px;height:300px;filter:brightness(64%)">
-            <h1 class="textomenu"><a >Dar banho</a></h1>
-            <map name="cadastroimg"><area shape="default"></area></map>
-        </div>
-
-        <div class="menu-cadastro">
-            <img src="FILES/images (3).jpg" usemap="#cadastroimg" style="width:400px;height:300px;filter:brightness(64%)">
-            <h1 class="textomenu1"><a >Passear com os animais</a></h1>
-            <map name="cadastroimg"><area shape="default"></area></map>
-        </div>
-
-        <div class="menu-cadastro">
-            <img src="FILES/images.jpg" usemap="#cadastroimg" style="width:400px;height:300px;filter:brightness(64%)">
-            <h1 class="textomenu2"><a >Ajudar na alimentação</a></h1>
-            <map name="cadastroimg"><area shape="default"></area></map>
-        </div>
-
-        <div class="menu-cadastro">
-            <img src="FILES/PEQUENOS 08 (4)_1-2.jpg" usemap="#cadastroimg" style="width:400px;height:300px;filter:brightness(64%)">
-            <h1 class="textomenu3"><a >Momento recrativo</a></h1>
-            <map name="cadastroimg"><area shape="default"></area></map>
-        </div>
-    
-        <div class="whatsapp">
-            <h1 >Agende um horario</h1>
-            <h2>SEG - SAB</h2>
-            <h3>08:00 AS 20:00</h3>
-            <p>Saiba Mais</p>
-            <a href="https://wa.me/5555459914878?text=Ajude+um+pet">Link Whatsapp:</a>
-        </div>
-
-    </div>
+        <section class="whatsapp">
+            <h2>Agende um horário</h2>
+            <p>SEG - SAB</p>
+            <p>08:00 AS 20:00</p>
+            <p>Saiba Mais:</p>
+            <a href="https://wa.me/5555459914878?text=Ajude+um+pet">Link Whatsapp</a>
+        </section>
+    </main>
 
     <footer>
-        <p class="textofinal">Seja a mudança. Adote hoje. Junte-se a nós!</p>
-      </footer>
+        <p>Seja a mudança. Adote hoje. Junte-se a nós!</p>
+    </footer>
 
+    <script src="JS/"></script>
+    <script src="JS/adocaoscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-<script src="JS/"></script>
-<script src="JS/adocaoscript.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </html>
