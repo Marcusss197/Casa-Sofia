@@ -117,9 +117,6 @@ body {
   margin-top: -500px;
   margin-left: 20px;
   gap:20px;
-}
-#filter{
-  display: flex;
   width: 250px;
   height: 40px;
   border: none;
