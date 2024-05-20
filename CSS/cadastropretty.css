@@ -71,6 +71,8 @@ footer {
   gap: 130px;
   align-items: flex-start;
   margin-top: 30px;
+  height: 1370px;
+
 }
 
 nav {
@@ -130,16 +132,17 @@ nav ul li:hover::after {
 .customcontato{
   position:absolute;
   top:300px;
-  left:700px;
-  right: 200px ;
-  color:black
+  left:400px;
+  right: 400px ;
+  color:black;
   font-family:arial;
   font-size:25px;
 }
 
 body form {
   background: #999;
-  width: fit-content;
+  width: 600px;
+  margin: auto;
   padding: 40px;
   font-family: "Open Sans Condensed", sans-serif;
 }

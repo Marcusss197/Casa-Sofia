@@ -14,16 +14,19 @@ body {
 
 .container {
   margin: 0 auto;
-  padding: 20px;
-  max-width: 1200px;
+  padding: 5px;
+  max-width: 120px;
+  text-align: center;
 }
 
 
 .logosofia {
   display: flex;
-  align-items: center;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 20px; 
 }
-
 #logo {
   width: 170px;
   height: 150px;
@@ -34,7 +37,6 @@ body {
   font-size: 32px;
   font-weight: bold;
   color: black;
-  margin-left: 20px;
 }
 
 
