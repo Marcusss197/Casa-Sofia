@@ -30,7 +30,8 @@ body {
 #logo {
   width: 170px;
   height: 150px;
-  border: black solid 6px;
+  border: black solid 3px;
+  border-radius: 15px;
 }
 
 #textosofia {

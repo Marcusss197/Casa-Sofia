@@ -30,7 +30,8 @@ footer {
   display: flex;
   margin-top: -10px;
   margin-left: -30px;
-  border: black solid 6px;
+  border: black solid 3px;
+  border-radius: 15px;
   width: 185px;
   height: 165px;
   align-items: center;
