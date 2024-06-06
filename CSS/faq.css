@@ -1,19 +1,22 @@
 
 body {
-    background-color: #dddddd;
-    background-image: url(../FILES/fundotemporario.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    background-size: cover;
-      }
+  background-color: #dddddd;
+  background-image: url(../FILES/fundotemporario2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
   
       footer {
         background-color: rgb(50, 50, 50);
         color: white;
         padding: 50px;
         text-align: center;
-        margin-top: 900px;
+        margin-top: 200px !important;
         margin-left: -10px;
     }
     
@@ -24,35 +27,9 @@ body {
     
     }
   
-    #logo{
-      display: flex;
-      margin-top: -10px;
-      margin-left: -30px;
-      border: black solid 6px;
-      width: 185px;
-      height: 165px;
-      align-items: center;
-      font-family: Arial;
-      
-  }
   
-  #textosofia{
-    display: flex;
-    font-size: 32px;
-    margin-left: -26px;
-    color: black;
-    font-weight: bold;
-      
-  }
+
   
-  .direct{
-    display: flex;
-    color:black;
-    text-decoration: none;
-    margin-top: 15px;
-    margin-left: -10px;
-  
-  }
   
   /* nav bar */
   * {
@@ -60,55 +37,6 @@ body {
       padding: 0;
       box-sizing: border-box;
       font-family: "Poppins", sans-serif;
-    }
-    .container {
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      flex-direction: row;
-      gap:130px;
-      align-items: flex-start;
-      margin-top: 30px;
-    }
-    nav {
-      background: #fff;
-      border-radius: 50px;
-      
-      box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
-    }
-    nav ul li {
-      list-style: none;
-      display: inline-block;
-      padding: 5px 13px;
-      margin: 10px;
-      font-size: 18px;
-      font-weight: 500;
-      color: #777;
-      cursor: pointer;
-      position: relative;
-      z-index: 2;
-      transition: color 0.5s;
-    }
-    nav ul li::after {
-      content: "";
-      background: #707070;
-      width: 100%;
-      height: 100%;
-      border-radius: 30px;
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translate(-55%, -35%);
-      z-index: -1;
-      opacity: 0;
-      transition: top 0.5s, opacity 0.5s;
-    }
-    nav ul li:hover {
-      color: #fff;
-    }
-    nav ul li:hover::after {
-      top: 50%;
-      opacity: 1;
     }
     /* nav-bar */
     .abaduvida{
@@ -137,10 +65,12 @@ body {
     }
     
     .duvidasgeral{
-      position:absolute;
-      top: 260px;
-      left: 40px;
+      margin-top: 50px;
       font-family:Arial;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     
     .active, .abaduvida:hover {
