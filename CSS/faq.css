@@ -112,12 +112,13 @@ body {
     }
     /* nav-bar */
     .abaduvida{
-      background-color: #8364e1;
-      color: #ffffff;
+      background-color: #37276a;
+      color: #fdfdfd;
       cursor: pointer;
       padding: 18px;
       width: 1390px;
       border: none;
+      border-radius: 20px;
       text-align: left;
       outline: none;
       font-size: 30px;
@@ -128,7 +129,7 @@ body {
     .painel{
       padding: 0 18px;
       width: 1300px;
-      background-color: #ffffffb1;
+      background-color: #fdfdfd;
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.2s ease-out;
