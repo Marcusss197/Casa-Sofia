@@ -3,24 +3,42 @@ body {
     background-image: url(../FILES/fundotemporario.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    
     background-size: cover;
     }
 
-footer {
-    background-color: rgb(50, 50, 50);
-    color: white;
-    padding: 50px;
-    text-align: center;
-    margin-top: 900px;
-    margin-left: -10px;
+#textotitulo{
+    font-size: 30px;
 }
 
 .textofinal{
-    color:white;
+    /*color:white;*/
     font-family: Arial;
-    font-size: 35px;
+    font-size: 30px;
+    text-decoration: underline;
+}
 
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	margin-top: 900px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
 }
 
 .logosofia{
