@@ -129,7 +129,7 @@ body {
     .painel{
       padding: 0 18px;
       width: 1300px;
-      background-color: #ffffffb1;
+      background-color: #fdfdfd;
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.2s ease-out;
