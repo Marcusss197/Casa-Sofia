@@ -73,8 +73,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             size: "medium",
             breed: "Branco",
             age: "adult",
-            img: "/FILES/bella.png",
-            description: "Ela ta de vestido, ou seja, adote IMEDIATAMENTE, ADOTE AGORA",
+            img: "/FILES/pedropedro.gif",
+            description: "isso é um gato?",
             link: "adocao.html"
         },
         {
