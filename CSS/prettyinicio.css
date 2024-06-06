@@ -11,16 +11,16 @@ footer {
     background-color: rgb(50, 50, 50);
     color: white;
     padding: 50px;
-    width: 100%;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 900px;
     margin-left: -10px;
 }
 
-.textofinal {
-    color: white;
+.textofinal{
+    color:white;
     font-family: Arial;
     font-size: 35px;
+
 }
 
 .logosofia {
