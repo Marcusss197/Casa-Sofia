@@ -131,6 +131,10 @@ nav ul li a:hover {
   margin-top:70px;
 }
 
+.itemLista {
+  text-align: start;
+}
+
 .card-adocao{
   display: flex;
   margin-left: 65px;

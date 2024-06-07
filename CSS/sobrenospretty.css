@@ -103,4 +103,6 @@ section p {
 footer {
   background-color: rgb(50, 50, 50);
   color: white;
+  height: 100px;
+  text-align: center;
    }
