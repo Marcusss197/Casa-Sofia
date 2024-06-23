@@ -1,20 +1,41 @@
 body {
-    background-color: #dddddd;
-    background-image: url(../FILES/fundotemporario2.png);
+    background-color: rgb(126, 74, 126);
+    background-image: linear-gradient(white, rgb(126, 74, 126));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
-footer {
-    background-color: rgb(50, 50, 50);
+/* footer pra bota em geral */
+.footer {
+    background-color: transparent;
     color: white;
-    padding: 50px;
+    padding: 20px;
     text-align: center;
-    margin-top: 500px;
-    margin-left: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;;
 }
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* fim dos footer */
 
 .textofinal{
     color:white;
@@ -33,8 +54,8 @@ footer {
 
 #logo {
     border: black solid 6px;
-    width: 300px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 #textosofia {
@@ -45,28 +66,33 @@ footer {
 }
 
 .direct {
-    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
     text-decoration: none;
+    color: inherit;
 }
 
 .all-menu {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .menu-item {
     position: relative;
     border: black solid 6px;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
     background-size: cover;
     background-position: center;
+}
+
+.menu-item:hover {
+    box-shadow: 0 11px 11px 0 rgba(0, 0, 0, .16);
+    transform: translateY(-10px);
 }
 
 .menu-adocao {
@@ -98,13 +124,14 @@ footer {
     transform: translateY(-10px);
 }
 
+
 .textomenu {
     color: white;
     font-family: Arial;
     position: absolute;
-    top: 40%;
+    bottom: -60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 52px;
+    font-size: 40px;
     text-align: center;
 }

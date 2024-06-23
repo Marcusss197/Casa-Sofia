@@ -1,19 +1,37 @@
 body {
   background-color: #dddddd;
-  background-image: url(../FILES/fundotemporario2.png);
+  background-image: linear-gradient(to bottom right, white, rgb(126, 74, 126));
   background-position: center;
   background-repeat: no-repeat;
   
   background-size: cover;
     }
 
-    footer {
-      background-color: rgb(50, 50, 50);
+    .footer {
+      background-color: transparent;
       color: white;
-      padding: 50px;
+      padding: 20px;
       text-align: center;
-      margin-top: 300px;
-      margin-left: -10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 200px;
+      font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;;
+  }
+  
+  .social-icons {
+      display: flex;
+      gap: 10px;
+  }
+  
+  .social-icons a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+  }
+  
+  .footer p {
+      margin: 5px 0;
   }
   
   .textofinal{
@@ -93,6 +111,14 @@ nav ul li a:hover {
 }
   /* nav-bar */
 
+
+  .filtrosIcon{
+    text-align: center;
+    color:white;
+    margin-top:150px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  }
 .filtro-pets{
   flex-direction:row;
   gap:20px;
@@ -101,8 +127,9 @@ nav ul li a:hover {
   border: none;
   font-size: 20px;
   display: flex;
-  margin-left: 210px; 
-  margin-top: 100px;
+  margin-left: 250px; 
+  margin-top: 10px;
+  text-align: center;
 }
 
 .buscar {
@@ -120,6 +147,7 @@ nav ul li a:hover {
   margin-left: auto; 
   margin-right: auto; 
 }
+
 
 .allcards-adocao{
   display: flex;
