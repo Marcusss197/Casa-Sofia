@@ -54,6 +54,7 @@ body {
 
 #logo {
     border: black solid 6px;
+    border-radius: 15%;
     width: 200px;
     height: 200px;
 }
@@ -83,8 +84,9 @@ body {
 .menu-item {
     position: relative;
     border: black solid 6px;
+    border-radius: 10%;
     width: 300px;
-    height: 200px;
+    height: 220px;
     transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
     background-size: cover;
     background-position: center;
@@ -129,7 +131,7 @@ body {
     color: white;
     font-family: Arial;
     position: absolute;
-    bottom: -60%;
+    bottom: -50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;

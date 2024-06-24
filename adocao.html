@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title>Adoção - Casa Sofia</title>
+    <title>Adoção - Casa Sofia</title>
     <link rel="icon" type="image/x-icon" href="FILES/icon.png">
     <link rel="stylesheet" href="CSS/adocaopretty.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -28,67 +28,69 @@
             </ul>
         </nav>
     </div>
- 
-    <div class="filtrosIcon">
-        <i class="bi bi-funnel-fill"></i>
-        <a>Filtros</a>
-    </div>
-    <div class="filtro-pets">
-        <label htmlFor="pets"></label>
-        <select id="filter-pets" value="all-pets">
-            <option value="all-pets">Todos os Pets</option>
-            <option value="dog">Cachorro</option>
-            <option value="cat">Gato</option>
-        </select>
-        <label htmlFor="sexo"></label>
-        <select id="filter-sex" value="all-sex">
-            <option value="all-sex">Todos os Sexos</option>
-            <option value="boy">Macho</option>
-            <option value="girl">Fêmea</option>
-        </select>
-        <label htmlFor="size"></label>
-        <select id="filter-size" value="all-size">
-            <option value="all-size">Todos os portes</option>
-            <option value="small">Porte Pequeno</option>
-            <option value="medium">Porte Médio</option>
-            <option value="large">Porte Grande</option>
-        </select>
-        <label htmlFor="breed"></label>
-        <select id="filter-breed" value="all-breeds">
-            <option value="all-breeds">Todas as Raças</option>
-            <option value="no-breed">Sem Raça</option>
-            <option value="pudim">Pudim</option>
-            <option value="sushi">Sushi</option>
-            <option value="batata">Batata</option>
-            <option value="caramelo">Caramelo dono da rua</option>
-        </select>
-        <label htmlFor="age"></label>
-        <select id="filter-age" value="all-age">
-            <option value="all-age">Idade</option>
-            <option value="puppy">Filhote</option>
-            <option value="adult">Adulto</option>
-            <option value="elderly">Idoso</option>
-        </select>
-    </div>
+<div class="filter-container">
+    <div class="filter-box">
+        <div class="filtrosIcon">
+            <i class="bi bi-funnel-fill"></i>
+            <a>Filtros</a>
+        </div>
+
     
-    <button type="button" class="buscar">Buscar</button>
+            <label htmlFor="pets"></label>
+            <select id="filter-pets" value="all-pets">
+                <option value="all-pets">Todos os Pets</option>
+                <option value="dog">Cachorro</option>
+                <option value="cat">Gato</option>
+            </select>
+            <label htmlFor="sexo"></label>
+            <select id="filter-sex" value="all-sex">
+                <option value="all-sex">Todos os Sexos</option>
+                <option value="boy">Macho</option>
+                <option value="girl">Fêmea</option>
+            </select>
+            <label htmlFor="size"></label>
+            <select id="filter-size" value="all-size">
+                <option value="all-size">Todos os portes</option>
+                <option value="small">Porte Pequeno</option>
+                <option value="medium">Porte Médio</option>
+                <option value="large">Porte Grande</option>
+            </select>
+            <label htmlFor="breed"></label>
+            <select id="filter-breed" value="all-breeds">
+                <option value="all-breeds">Todas as Raças</option>
+                <option value="no-breed">Sem Raça</option>
+                <option value="pudim">Pudim</option>
+                <option value="sushi">Sushi</option>
+                <option value="batata">Batata</option>
+                <option value="caramelo">Caramelo dono da rua</option>
+            </select>
+            <label htmlFor="age"></label>
+            <select id="filter-age" value="all-age">
+                <option value="all-age">Idade</option>
+                <option value="puppy">Filhote</option>
+                <option value="adult">Adulto</option>
+                <option value="elderly">Idoso</option>
+            </select>
+            <button type="button" class="buscar">Buscar</button>
+        </div>
+    </div>
 
     <div class="allcards-adocao" id="card-section-1">
-      <!-- Cards aqui -->
+        <!-- Cards aqui -->
     </div>
 
     <div class="allcards-adocao" id="card-section-2">
-      <!-- Cards aqui -->
+        <!-- Cards aqui -->
     </div>
     <footer class="footer">
         <div class="footer-left">
             <div class="social-icons">
                 <a href="https://www.facebook.com/ongcasasofia/?locale=pt_BR" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/casasofiaong/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5545991487823" target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i></a>
                 <a href="mailto:casasofia@gmail.com"><i class="bi bi-envelope"></i></a>
             </div>
             <p><i class="bi bi-geo-alt-fill"></i> Av. Felipe Wandscheer, 399</p>
-    </div>
         </div>
         <div>
             <p style="text-decoration: none;color:white;font-size: 20px;">Seja a mudança. Adote hoje. Junte-se a nós!</p>

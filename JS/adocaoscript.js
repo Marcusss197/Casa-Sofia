@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             age: "adult",
             img: "/FILES/luna.png",
             description: "Luna cachorro fofa e pequena, fofuxa, linda, pequena, linda",
-            link: "pet1.html"
+            link: "adocao.html"
         },
         {
             name: "Max",

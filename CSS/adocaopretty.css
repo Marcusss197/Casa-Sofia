@@ -1,6 +1,6 @@
 body {
   background-color: #dddddd;
-  background-image: linear-gradient(to bottom right, white, rgb(126, 74, 126));
+  background-image: linear-gradient(white, rgb(126, 74, 126));
   background-position: center;
   background-repeat: no-repeat;
   
@@ -114,8 +114,7 @@ nav ul li a:hover {
 
   .filtrosIcon{
     text-align: center;
-    color:white;
-    margin-top:150px;
+    color:rgb(0, 0, 0);
     font-size: 30px;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   }
@@ -130,6 +129,14 @@ nav ul li a:hover {
   margin-left: 250px; 
   margin-top: 10px;
   text-align: center;
+}
+
+select{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
 }
 
 .buscar {
@@ -170,10 +177,26 @@ nav ul li a:hover {
   transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
 }
 
-.card-adocao:hover{
-    box-shadow: 0 11px 11px 0 rgba(0, 0, 0,.16);
-    transform: translateY(-15px);
-}
 .buscar:hover{
   background-color: #60b8fb; 
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.filter-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 40%;
+  margin-top: 30px;
 }

@@ -1,10 +1,9 @@
 body {
-    background-color: #dddddd;
-    background-image: url(../FILES/fundotemporario.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    background-size: cover;
+  background-color: rgb(126, 74, 126);
+  background-image: linear-gradient(white, rgb(126, 74, 126));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
       }
   
       footer {

@@ -1,7 +1,7 @@
 
 body {
-  background-color: #dddddd;
-  background-image: url(../FILES/fundotemporario2.png);
+  background-color: #7e4a7e;
+  background-image: linear-gradient(white, rgb(126, 74, 126));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,7 +40,7 @@ body {
     }
     /* nav-bar */
     .abaduvida{
-      background-color: #37276a;
+      background-color: #7e4a7e;
       color: #fdfdfd;
       cursor: pointer;
       padding: 18px;
@@ -56,7 +56,7 @@ body {
     
     .painel{
       padding: 0 18px;
-      width: 1300px;
+      width: 1350px;
       background-color: #fdfdfd;
       max-height: 0;
       overflow: hidden;
@@ -74,7 +74,7 @@ body {
     }
     
     .active, .abaduvida:hover {
-      background-color: #3c19a3;
+      background-color: #9f5d9f;
     }
     
     #map {
