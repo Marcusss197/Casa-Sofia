@@ -53,17 +53,19 @@ footer {
 }
 
 body form {
-  background: #999;
+  /*background: #999;*/
+  border: 2px solid black;
   width: 600px;
   margin: auto;
   padding: 40px;
   font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
 }
-
 
 h1 {
   text-align: center;
 }
+
 
 label {
   display: block;
@@ -74,21 +76,27 @@ input, textarea, button {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 3px;
+  margin-bottom: 5px;
 }
 
 button {
-  background-color: #28a745;
-  color: white;
-  border: none;
+  width: 100%;/*ACRESCENTANDO*/
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 4px;
   cursor: pointer;
-  margin-top: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
 }
 
 button:hover {
-  background-color: #218838;
+  background-color: black;
+  color: #fff;
 }
+
 
 .result {
   max-width: 600px;

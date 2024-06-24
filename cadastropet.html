@@ -32,8 +32,9 @@
         </nav>
     </div>
     <div class="customcontato">
-        <h1>Cadastro de Pet</h1>
+        
         <form id="petForm">
+            <h1>Cadastro de Pet</h1>
             <label for="doador">Nome do doador:</label>
             <input type="text" id="doador" name="doador" required>
 
@@ -43,11 +44,21 @@
             <label for="petName">Nome do Pet:</label>
             <input type="text" id="petName" name="petName" required>
 
+            <label for="sexo">Sexo do pet:</label>
+            <select id="sexo-pet" name="sexo-pet" required>
+                <option value="Macho">Macho</option>
+                <option value="Femea">Fêmea</option>
+            </select>
+
+            <label for="idade-pet">Idade do Pet:</label>
+            <select name="idade-pet" id="idade-pet" required>
+                <option value="Filhote">Filhote</option>
+                <option value="Adulto">Adulto</option>
+                <option value="Idoso">Idoso</option>
+            </select>
+
             <label for="raca">Raça do pet:</label>
             <input type="text" id="raca" name="raca" required>
-
-            <label for="sexo">Sexo do pet:</label>
-            <input type="text" id="sexo" name="sexo" required>
 
             <label for="descricao">Descrição:</label>
             <textarea id="descricao" name="descricao" required></textarea>
@@ -55,7 +66,7 @@
             <label for="foto">Foto do pet:</label>
             <input type="file" id="foto" name="foto" accept="image/*" required>
 
-            <button type="submit">Concluir cadastro de adoção</button>
+            <button type="submit">Concluir</button>
         </form>
     </div>
 
