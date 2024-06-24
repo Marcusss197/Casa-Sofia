@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             age: "adult",
             img: "/FILES/princesa.jpg",
             description: "Uma cachorra mansa, é sociavel com as crianças e desconhecidos, ama carinho e está vacinada e castrada.",
-            link: "adocao.html"
+            link: "#"
         },
         {
             name: "Eevee",
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             age: "puppy",
             img: "/FILES/zzz.jpg",
             description: "Esse gato só dorme, acorda por 30 minutos pra comer e caga, pra depois fica dormindo",
-            link: "adocao.html"
+            link: "#"
         },
         {
             name: "Sparkle",
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             age: "adult",
             img: "/FILES/sparkle.jpg",
             description: "Sparkle é muito carente e gosta de ser tratada como uma princesa, onde tudo tem que estar ao seu alcance, desde comida, brinquedo e até seu proprio dono.",
-            link: "adocao.html"
+            link: "#"
         },
         {
             name: "Luna",
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             age: "adult",
             img: "/FILES/luna.png",
             description: "Luna cachorro fofa e pequena, fofuxa, linda, pequena, linda",
-            link: "adocao.html"
+            link: "#"
         },
         {
             name: "Max",
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             age: "adult",
             img: "/FILES/max.png",
             description: "Listradinho e carente, vamo aperta esse fofuxo, uau",
-            link: "adocao.html"
+            link: "#"
         },
         {
             name: "Bella",
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             age: "adult",
             img: "/FILES/pedropedro.gif",
             description: "isso é um gato?",
-            link: "adocao.html"
+            link: "#"
         },
         {
             name: "Simba",
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             age: "adult",
             img: "/FILES/simba.png",
             description: "HAAAAAAAAAAAAAAAAAAAAAAA TIMEUNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            link: "adocao.html"
+            link: "#"
         }
     ];
 
@@ -113,8 +113,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         petCard.style.width = '18rem';
         
         petCard.innerHTML = `
-            <img src="${pet.img}" class="card-img-top" alt="${pet.name}" usemap="#img-direct">
-            <map name="img-direct"><area shape="default" href="pet1.html"></area></map>
+            <img src="${pet.img}" class="card-img-top" alt="${pet.name}" usemap="#${pet.name}1">
+            <map name="${pet.name}1"><area shape="default" href="${pet.link}"></area></map>
             <div class="card-body">
                 <h5 class="card-title">${pet.name}</h5>
                 <p class="card-text">${pet.description}</p>
