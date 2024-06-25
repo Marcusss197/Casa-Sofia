@@ -33,6 +33,7 @@ body {
   padding: 5px;
   max-width: 120px;
   text-align: center;
+  font-weight: bold;
 }
 
 nav {
