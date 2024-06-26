@@ -1,5 +1,5 @@
 .main-title {
-  color: #f10000;
+  color: #8a0286;
   border-bottom: 3px solid;
   margin: 35px 0;
   width: 350px;
@@ -77,6 +77,14 @@
   height: 50px;
 }
 
-.whatsapp {
-  margin: 90px 0;
+.whatsapp{
+  flex: 1;
+  margin: 10rem;
+  padding: 3rem;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
 }
